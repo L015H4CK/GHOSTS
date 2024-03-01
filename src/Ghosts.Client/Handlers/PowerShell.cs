@@ -97,7 +97,7 @@ namespace Ghosts.Client.Handlers
 
         public void Command(TimelineHandler handler, TimelineEvent timelineEvent, string command)
         {
-            var replacements = handler.HandlerArgs["url-replace"];
+            var replacements = handler.HandlerArgs["replace"];
 
             foreach (var replacement in (JArray)replacements)
             {
