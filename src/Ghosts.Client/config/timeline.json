@@ -34,6 +34,24 @@
       ]
     },
     {
+      "HandlerType": "PowerShell",
+      "HandlerArgs": {
+          "url-replace": [{"content": ["v1", "v2"], "filename": ["aaaf", "aaab"]}]
+      },
+      "Initial": "",
+      "UtcTimeOn": "00:00:00",
+      "UtcTimeOff": "24:00:00",
+      "Loop": "True",
+      "TimeLineEvents": [
+        {
+          "Command": "echo {content} >> {filename}.txt",
+          "CommandArgs": [ ],
+          "DelayAfter": 1000,
+          "DelayBefore": 0
+        }
+      ]
+    },
+    {
       "HandlerType": "Word",
       "Initial": "",
       "UtcTimeOn": "00:00:00",

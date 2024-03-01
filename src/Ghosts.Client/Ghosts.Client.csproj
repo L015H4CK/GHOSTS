@@ -211,6 +211,7 @@
     <Compile Include="Handlers\Notepad.cs" />
     <Compile Include="Handlers\Outlook.cs" />
     <Compile Include="Handlers\PowerPoint.cs" />
+    <Compile Include="Handlers\PowerShell.cs" />
     <Compile Include="Handlers\Word.cs" />
     <Compile Include="Health\HealthRecord.cs" />
     <Compile Include="Health\Check.cs" />

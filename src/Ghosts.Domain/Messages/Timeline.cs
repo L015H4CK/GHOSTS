@@ -112,7 +112,8 @@ namespace Ghosts.Domain
         Wmi = 104,
         Outlookv2 = 105,
         Ftp = 106,
-        AwsCli = 110
+        AwsCli = 110,
+        PowerShell = 4711,
     }
 
     /// <summary>

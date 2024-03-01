@@ -49,6 +49,9 @@ public static class ProcessManager
             case HandlerType.Outlook:
                 KillProcessAndChildrenByName("outlook");
                 break;
+            case HandlerType.PowerShell:
+                KillProcessAndChildrenByName("powershell");
+                break;
 
         }
     }
